@@ -53,12 +53,12 @@ async def send_typing_message(channel, message):
         await asyncio.sleep(2)
         await channel.send(message)
 
-@bot.command(name='ajuda')
+@bot.command(name='kratos')
 async def ajuda(ctx):
     responses = [
-        f"Olá, {ctx.author.mention}. Sou ajudante, o que posso ajudar?.",
-        f"Aqui estou, {ctx.author.mention}.",
-        f"Olá, {ctx.author.mention}.",
+        f"{ctx.author.mention}. Sou o deus da guerra.",
+        f"O que foi garoto, {ctx.author.mention}.",
+        f"Sou Kratos deus da guerra, {ctx.author.mention}.",
     ]
     await send_typing_message(ctx.channel, random.choice(responses))
 

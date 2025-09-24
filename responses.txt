@@ -1,3 +1,3 @@
 Olá {author}
-tudo sim, e você?
-que bom {author} 😊
+Como você está {author}?
+Que foi {author} 
