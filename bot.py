@@ -72,6 +72,8 @@ async def daily_greetings():
         await channel.send("Bom dia!")
     elif now.hour == 12:
         await channel.send("Boa tarde!")
+    elif now.hour == 16:
+        await channel.send("Boa tarde!")
     elif now.hour == 18:
         await channel.send("Boa noite!")
 
