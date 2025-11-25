@@ -1,5 +1,3 @@
 Olá {author}
 Como você está {author}?
-Que foi {author} 
-{author}, o senhor será banido!
-{author}, o senhor será banido!
+Que foi {author}
