@@ -56,9 +56,9 @@ async def send_typing_message(channel, message):
 @bot.command(name='kratos')
 async def ajuda(ctx):
     responses = [
-        f"{ctx.author.mention}. Sou o deus da guerra.",
-        f"O que foi garoto, {ctx.author.mention}.",
-        f"Sou Kratos deus da guerra, {ctx.author.mention}.",
+        f"{ctx.author.mention}",
+        f"{ctx.author.mention}",
+        f"{ctx.author.mention}",
     ]
     await send_typing_message(ctx.channel, random.choice(responses))
 
